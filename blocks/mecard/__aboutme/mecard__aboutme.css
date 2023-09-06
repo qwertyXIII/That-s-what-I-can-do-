@@ -1,0 +1,7 @@
+.mecard__aboutme {
+  grid-area: mecard__aboutme;
+  color: white;
+  font-size: 15px;
+  margin: 0;
+  place-self: start;
+}

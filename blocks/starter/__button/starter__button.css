@@ -1,0 +1,9 @@
+.starter__button {
+  position: absolute;
+  bottom: 100px;
+  background-color: white;
+}
+
+.starter_anim .starter__button {
+  opacity: 0;
+}

@@ -1,0 +1,33 @@
+@keyframes starterHidden {
+  0% {
+
+  }
+  30% {
+    width: 90vw;
+    height: 90vh;
+    border-radius: 50px;
+    top: 5vh;
+    left: 5vh;
+  }
+  99% {
+    width: 90vw;
+    height: 90vh;
+    border-radius: 50px;
+    top: 150vh;
+    left: 5vh;
+  }
+  100% {
+    width: 90vw;
+    height: 90vh;
+    border-radius: 50px;
+    top: 150vh;
+    left: 5vh;
+    display: none;
+    scale: 0.3;
+  }
+}
+
+.starter_anim {
+  transition: 200ms;
+  animation: 2s ease 0s forwards starterHidden;
+}

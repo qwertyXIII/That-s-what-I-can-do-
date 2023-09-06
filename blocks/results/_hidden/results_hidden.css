@@ -1,0 +1,9 @@
+.results__hidden {
+  visibility: hidden;
+  opacity: 0;
+  bottom: -150vh;
+  filter: brightness(0);
+  scale: 0.5;
+  filter: blur(50px);
+  border-radius: 300px;
+}

@@ -1,0 +1,17 @@
+.mecard {
+  background-color: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(25px);
+  width: 60%;
+  place-items: center;
+  display: grid; 
+  grid-template-columns: min-content 1fr; 
+  grid-template-rows: min-content min-content max-content; 
+  gap: 30px; 
+  grid-template-areas: 
+    "mecard__photo mecard__name"
+    "mecard__photo mecard__aboutme"
+    "mecard__text mecard__text";
+    border-radius: 30px;
+    padding: 50px;
+    outline: 1px rgba(0, 0, 0, 0.4) solid;
+}

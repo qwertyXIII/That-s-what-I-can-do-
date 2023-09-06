@@ -1,0 +1,8 @@
+.mecard__photo {
+  grid-area: mecard__photo;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  contain: content;
+  object-fit: cover;
+}

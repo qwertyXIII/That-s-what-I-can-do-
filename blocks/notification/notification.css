@@ -1,0 +1,13 @@
+.notification {
+  display: grid; 
+  grid-template-columns: 100px 1fr; 
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: 
+    "notification__icon notification__title"
+    "notification__icon notification__text";
+  border-radius: 30px;
+  justify-content: center;
+  align-items: center;
+  transition: 100ms;
+  overflow: hidden;
+}

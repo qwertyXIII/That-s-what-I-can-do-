@@ -1,0 +1,6 @@
+.mecard__text {
+  grid-area: mecard__text;
+  color: white;
+  font-size: 20px;
+  word-wrap: normal;
+}

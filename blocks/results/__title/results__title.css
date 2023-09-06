@@ -1,0 +1,11 @@
+.results__title {
+  color: white;
+  border-radius: 30px;
+  font-size: 50px;
+  padding: 50px;
+  outline: 1px rgba(0, 0, 0, 0.4) solid;
+  backdrop-filter: blur(25px);
+  width: 60%;
+  margin: 0 0 50px 0;
+  padding: 20px 50px;
+}

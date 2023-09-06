@@ -1,0 +1,5 @@
+.skills_hidden {
+  visibility: hidden;
+  opacity: 0;
+  top: -150px;
+}

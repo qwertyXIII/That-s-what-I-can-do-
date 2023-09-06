@@ -1,0 +1,53 @@
+.googler__card {
+  width: 440px;
+  height: 80vh;
+  backdrop-filter: blur(25px);
+  background-color: rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  box-sizing: border-box;
+  border-radius: 50px;
+  overflow: hidden;
+  z-index: 2;
+  position: relative;
+  min-height: max-content;
+  max-width: 90vw;
+  outline: 1px rgba(0, 0, 0, 0.5) solid;
+  overflow: hidden;
+  transition: top 1500ms, margin 500ms, width 500ms, height 500ms, filter 500ms;
+  margin: 0 50px;
+  position: relative;
+  top: -0vw;
+}
+
+.googler__card::after {
+  content: 'EDUCATION';
+  position: absolute;
+  transform: rotate(-90deg);
+  color: rgba(255, 255, 255, 0.1);
+  top: 50%;
+  right: -145px;
+  margin: 0;
+  font-weight: 900;
+  font-size: 55px;
+}
+
+.googler__card.second-card::after {
+  content: 'WWW.GOOGLE.COM';
+  right: -255px;
+}
+
+
+.googler__card::before {
+  content: '';
+  position: absolute;
+  width: 50%;
+  top: 0;
+  right: 0;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  z-index: -1;
+}

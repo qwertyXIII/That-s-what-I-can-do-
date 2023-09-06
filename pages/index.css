@@ -1,0 +1,47 @@
+@import url(../vendor/normalize.css);
+@import url(../blocks/page/page.css);
+
+@import url(../blocks/button/button.css);
+
+@import url(../blocks/starter/starter.css);
+@import url(../blocks/starter/_anim/starter_anim.css);
+@import url(../blocks/starter/__heading/starter__heading.css);
+@import url(../blocks/starter/__button/starter__button.css);
+
+@import url(../blocks/googler/googler.css);
+@import url(../blocks/googler/_hidden/googler_hidden.css);
+@import url(../blocks/googler/__card/googler__card.css);
+@import url(../blocks/googler/__card/_hidden/googler__card_hidden.css);
+@import url(../blocks/googler/__icon/googler__icon.css);
+@import url(../blocks/googler/__title/googler__title.css);
+@import url(../blocks/googler/__text/googler__text.css);
+@import url(../blocks/googler/__button/googler__button.css);
+@import url(../blocks/googler/__button/_hidden/googler__button_hidden.css);
+
+@import url(../blocks/notification/notification.css);
+@import url(../blocks/notification/_hidden/notification_hidden.css);
+@import url(../blocks/notification/__icon/notification__icon.css);
+@import url(../blocks/notification/__title/notification__title.css);
+@import url(../blocks/notification/__text/notification__text.css);
+
+@import url(../blocks/skills/skills.css);
+@import url(../blocks/skills/_hidden/skills_hidden.css);
+@import url(../blocks/skills/_opened/skills_opened.css);
+@import url(../blocks/skills/__content/skills__content.css);
+@import url(../blocks/skills/__content/_hidden/skills__content_hidden.css);
+@import url(../blocks/skills/__title/skills__title.css);
+@import url(../blocks/skills/__subtitle/skills__subtitle.css);
+@import url(../blocks/skills/__text/skills__text.css);
+@import url(../blocks/skills/__list/skills__list.css);
+@import url(../blocks/skills/__code/skills__code.css);
+
+
+@import url(../blocks/results/results.css);
+@import url(../blocks/results/_hidden/results_hidden.css);
+@import url(../blocks/results/__title/results__title.css);
+@import url(../blocks/mecard/mecard.css);
+@import url(../blocks/mecard/__photo/mecard__photo.css);
+@import url(../blocks/mecard/__name/mecard__name.css);
+@import url(../blocks/mecard/__aboutme/mecard__aboutme.css);
+@import url(../blocks/mecard/text/mecard__text.css);
+
