@@ -18,8 +18,8 @@ googlerButtonFirst.addEventListener('click', () => {
 });
 
 googlerButtonSecond.addEventListener('click', () => {
-  googlerFirstCard.classList.add('googler__card_hidden')
-  googlerSecondCard.classList.add('googler__card_hidden')
+  googlerFirstCard.classList.add('googler__card_closed')
+  googlerSecondCard.classList.add('googler__card_closed')
   setTimeout(() => {
     skills.classList.remove('skills_hidden')
     setTimeout(() => {

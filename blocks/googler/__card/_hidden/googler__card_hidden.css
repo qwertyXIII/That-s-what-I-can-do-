@@ -1,6 +1,6 @@
 .googler__card_hidden {
   width: 0;
-  height: 0;
+  scale: 0.5;
   margin: 0;
   padding: 0;
   outline: 0;
