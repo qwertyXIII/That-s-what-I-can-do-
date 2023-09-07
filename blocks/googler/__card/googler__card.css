@@ -15,7 +15,7 @@
   z-index: 2;
   position: relative;
   min-height: max-content;
-  max-width: 90vw;
+  max-width: 95vw;
   outline: 1px rgba(0, 0, 0, 0.5) solid;
   overflow: hidden;
   transition: top 1500ms, margin 500ms, width 500ms, height 500ms, filter 500ms;
@@ -57,5 +57,6 @@
   .googler__card {
     margin: 0;
     width: 95vw;
+    height: 70vh;
   }
 }
