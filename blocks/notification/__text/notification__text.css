@@ -2,3 +2,9 @@
   margin: 0;
   font-size: 26px;
 }
+
+@media (max-width: 768px) {
+  .notification__text {
+    font-size: 18px;
+  }
+}

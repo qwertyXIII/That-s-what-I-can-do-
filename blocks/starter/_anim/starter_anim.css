@@ -29,5 +29,5 @@
 
 .starter_anim {
   transition: 200ms;
-  animation: 2s ease 0s forwards starterHidden;
+  animation: 1200ms ease 0s forwards starterHidden;
 }

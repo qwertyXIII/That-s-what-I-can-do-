@@ -5,3 +5,9 @@
   margin: 0;
   place-self: start;
 }
+
+@media (max-width: 768px) {
+  .mecard__aboutme {
+    font-size: 16px;
+  }
+}

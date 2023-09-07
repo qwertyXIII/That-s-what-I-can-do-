@@ -5,3 +5,11 @@
   margin: 0;
   place-self: start;
 }
+
+@media (max-width: 768px) {
+  .mecard__name {
+    font-size: 30px;
+    place-self: center;
+    justify-self: start;
+  }
+}

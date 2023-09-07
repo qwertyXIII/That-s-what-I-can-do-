@@ -1,4 +1,11 @@
 .notification__title {
   margin: 0;
   font-size: 40px;
+  align-self: end;
+}
+
+@media (max-width: 768px) {
+  .notification__title {
+    font-size: 25px;
+  }
 }

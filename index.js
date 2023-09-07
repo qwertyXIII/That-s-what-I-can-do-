@@ -12,16 +12,19 @@ starterButton.addEventListener('click', () => {
 googlerButtonFirst.addEventListener('click', () => {
   googlerSecondCard.classList.remove('googler__card_hidden')
   googlerButtonFirst.classList.add('googler__button_hidden')
+  if (window.screen.width < 1200) {
+    googlerFirstCard.classList.add('googler__card_hidden')
+  }
 });
 
 googlerButtonSecond.addEventListener('click', () => {
-  googler.classList.add('googler_hidden')
   googlerFirstCard.classList.add('googler__card_hidden')
   googlerSecondCard.classList.add('googler__card_hidden')
   setTimeout(() => {
     skills.classList.remove('skills_hidden')
     setTimeout(() => {
       skills.classList.add('skills_opened')
+      googler.classList.add('googler_hidden')
       notification.classList.add('notification_hidden')
       setTimeout(() => {
         skillsContent.classList.remove('skills__content_hidden')

@@ -1,4 +1,11 @@
 .starter__heading {
   color: white;
   font-size: 150px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .starter__heading {
+    font-size: 75px;
+  }
 }

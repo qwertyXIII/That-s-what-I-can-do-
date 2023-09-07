@@ -15,3 +15,9 @@
   opacity: 1;
   scale: 1;
 }
+
+@media (max-width: 768px) {
+  .results {
+    background-image: url(../../images/result-bg2.jpg);
+  }
+}

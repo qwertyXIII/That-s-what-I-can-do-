@@ -6,3 +6,10 @@
   contain: content;
   object-fit: cover;
 }
+
+@media (max-width: 768px) {
+  .mecard__photo {
+    width: 100px;
+    height: 100px;
+  }
+}

@@ -3,3 +3,11 @@
   font-size: 200px;
   text-shadow: 0px 0px 20px #030303;
 }
+
+
+@media (max-width: 768px) {
+  .googler__icon {
+    font-size: 130px;
+    text-align: center;
+  }
+}
