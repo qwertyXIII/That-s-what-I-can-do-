@@ -44,7 +44,3 @@
 @import url(../blocks/mecard/__name/mecard__name.css);
 @import url(../blocks/mecard/__aboutme/mecard__aboutme.css);
 @import url(../blocks/mecard/text/mecard__text.css);
-
-* {
-  transition: 3000ms;
-}
