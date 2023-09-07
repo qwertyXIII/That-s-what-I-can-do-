@@ -52,3 +52,10 @@
   background-color: rgba(0, 0, 0, 0.2);
   z-index: -1;
 }
+
+@media (max-width: 768px) {
+  .googler__card {
+    margin: 0;
+    width: 95vw;
+  }
+}
