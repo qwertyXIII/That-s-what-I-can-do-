@@ -4,6 +4,7 @@
   bottom: -150vh;
   filter: brightness(0);
   scale: 0.5;
+  -webkit-filter: blur(50px);
   filter: blur(50px);
   border-radius: 300px;
 }
