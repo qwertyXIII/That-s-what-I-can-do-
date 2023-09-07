@@ -1,6 +1,7 @@
 .googler__card {
   width: 440px;
-  height: 80vh;
+  height: max-content;
+  max-height: 90vh;
   -webkit-backdrop-filter: blur(25px);
   backdrop-filter: blur(25px);
   background-color: rgba(0, 0, 0, 0.2);
@@ -57,6 +58,5 @@
   .googler__card {
     margin: 0;
     width: 95vw;
-    height: 70vh;
   }
 }
