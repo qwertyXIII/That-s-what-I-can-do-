@@ -2,3 +2,9 @@
   left: 10vw;
   opacity: 0;
 }
+
+@media (max-width: 768px) {
+  .googler__card_closed {
+    transform: translateY(200px);
+  }
+}
