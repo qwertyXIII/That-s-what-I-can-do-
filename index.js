@@ -1,4 +1,4 @@
-import { googler, googlerButtonFirst, googlerButtonSecond, googlerFirstCard, googlerSecondCard, notification, result, skills, skillsButton, skillsContent, starter, starterButton } from "./utils/constants.js";
+import { googler, googlerButtonFirst, googlerButtonSecond, googlerCards, googlerFirstCard, googlerSecondCard, notification, result, skills, skillsButton, skillsContent, starter, starterButton } from "./utils/constants.js";
 
 starterButton.addEventListener('click', () => {
   starter.classList.add('starter_anim')

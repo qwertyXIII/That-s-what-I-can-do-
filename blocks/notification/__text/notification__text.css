@@ -1,6 +1,7 @@
 .notification__text {
   margin: 0;
   font-size: 26px;
+  color: white;
 }
 
 @media (max-width: 768px) {

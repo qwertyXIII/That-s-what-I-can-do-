@@ -2,6 +2,7 @@ export const starter = document.querySelector(".starter");
 export const starterButton = document.querySelector(".starter__button");
 
 export const googler = document.querySelector(".googler");
+export const googlerCards = document.querySelectorAll(".googler__card")
 export const googlerFirstCard = document.querySelector(".googler-first-card");
 export const googlerSecondCard = document.querySelector(".googler-second-card");
 export const googlerButtonFirst = document.querySelector('.googler__button-first');
