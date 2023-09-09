@@ -1,5 +1,5 @@
 .googler__card {
-  left: 0;
+  left: 0vw;
   width: 440px;
   height: max-content;
   max-height: 90vh;
@@ -58,7 +58,11 @@
 
 @media (max-width: 768px) {
   .googler__card {
-    margin: 0;
-    width: 95vw;
+    margin: auto 5vw;
+    transition: all 1500ms ease-in-out;
+    position: fixed;
+    width: 90vw;
+    left: 0vw;
+    bottom: 0vh;
   }
 }

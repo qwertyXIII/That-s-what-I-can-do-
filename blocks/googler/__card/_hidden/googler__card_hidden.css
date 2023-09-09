@@ -7,3 +7,13 @@
   top: 100vw;
   filter: blur(20px);
 }
+
+@media (max-width: 768px) {
+  .googler__card_hidden {
+    width: 90vw;
+    margin: auto 5vw;
+    scale: 1;
+    bottom: -150vh;
+    opacity: 0;
+  }
+}
