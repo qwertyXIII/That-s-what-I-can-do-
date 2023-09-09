@@ -1,0 +1,11 @@
+.googler__card_hidden-up {
+  transition: bottom 1000ms ease-in;
+  padding: 30px;
+  width: 90vw;
+  margin: auto 5vw;
+  scale: 1;
+  bottom: 300vh;
+  opacity: 0;
+  filter: blur(10px);
+  -webkit-filter: blur(10px);
+}
