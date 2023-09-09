@@ -13,7 +13,7 @@ googlerButtonFirst.addEventListener('click', () => {
   googlerSecondCard.classList.remove('googler__card_hidden')
   googlerButtonFirst.classList.add('googler__button_hidden')
   if (window.screen.width < 1200) {
-    googlerFirstCard.classList.add('googler__card_hidden-up')
+    googlerFirstCard.classList.add('googler__card_closed')
   }
 });
 

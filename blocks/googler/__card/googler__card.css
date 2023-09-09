@@ -20,7 +20,7 @@
   max-width: 95vw;
   outline: 1px rgba(0, 0, 0, 0.5) solid;
   overflow: hidden;
-  transition: top 1500ms, margin 500ms, width 500ms, height 500ms, filter 500ms, opacity 300ms, left 4000ms;
+  transition: 500ms;
   margin: 0 50px;
   position: relative;
   top: -0vw;
